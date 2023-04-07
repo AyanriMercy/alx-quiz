@@ -1,0 +1,49 @@
+Question #0
+Which command should you use to delete a directory?
+
+ANSWER - rmdir
+
+Question #1
+Which command should you use to list all files of your current directory?
+
+ANSWER - ls
+
+Question #2
+Which command should you use to rename or move a file (or directory)?
+
+ANSWER - mv
+
+Question #3
+Which command should you use to display the current path of your current directory?
+
+ANSWER - pwd
+
+Question #4
+Which command should you use to create a directory?
+
+ANSWER - mkdir
+
+Question #5
+Which command should you use to display the content of a file?
+
+ANSWER - less
+
+Question #6
+Which command should you use to change directory?
+
+ANSWER - cd
+
+Question #7
+Which command should you use to copy a file (or directory if additional argument)?
+
+ANSWER - cp
+
+Question #8
+Which command should you use to delete a file (or directory if additional argument)?
+
+ANSWER - rm
+
+Question #9
+Which command should you use to create an empty file?
+
+ANSWER - touch

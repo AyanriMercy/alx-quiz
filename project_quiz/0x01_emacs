@@ -1,0 +1,22 @@
+Question #0
+In Emacs’ documentation, what does M in a shortcut command stand for?
+
+Select all correct answers
+
+ANSWER - Alt
+	Meta
+
+Question #1
+In Emacs’ documentation, what does C in a shortcut command stand for?
+
+ANSWER - Ctrl
+
+Question #2
+You can only have one buffer open in Emacs at a time.
+
+ANSWER - False
+
+Question #3
+In Emacs, a buffer is an object that a file’s text is held in.
+
+ANSWER - True

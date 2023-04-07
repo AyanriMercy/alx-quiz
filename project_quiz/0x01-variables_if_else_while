@@ -1,0 +1,57 @@
+Question #0
+What is the size of the char data type?
+
+ANSWER - 1 byte
+
+Question #1
+What is the size of the unsigned int data type?
+
+ANSWER - 4 bytes
+
+Question #2
+Which of the following are valid if statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+
+ANSWER - if (a > b)
+	 {
+  		return (a);
+	 }
+	- if (a > b)
+  		return (a);
+
+Question #3
+What is the size of the float data type?
+
+ANSWER - 4 bytes
+
+Question #4
+Which of the following are valid while or do/while statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+
+ANSWER - a = 0;
+	 while (a < b)
+    		printf("%d\n", a++);
+	- a = 0;
+	  do {
+    		printf("%d\n", a);
+    		a++;
+	  } while (a < b);
+	- a = 0;
+	  while (a < b)
+	  {
+    		printf("%d\n", a);
+    		a++;
+	  }
+
+Question #5
+Which of the following are valid for statements in ANSI C and Betty-compliant? (Considering a and b two variables of type int)
+
+ANSWER - for (a = 0; a < b; a++)
+    		printf("%d\n", a);
+	- a = 0;
+	  for (; a < b;)
+	  {
+    		printf("%d\n", a++);
+	  }
+	- for (a = 0; a < b; a++)
+	  {
+    		printf("%d\n", a);
+	  }

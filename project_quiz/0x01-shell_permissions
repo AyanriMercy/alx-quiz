@@ -1,0 +1,34 @@
+Question #0
+Which command should I use for changing a file owner?
+
+ANSWER - chown
+
+Question #1
+What is the numerical value for the ----w---x permission?
+
+ANSWER - 021
+
+Question #2
+Which command should I use for changing a file permission?
+
+ANSWER - chmod
+
+Question #3
+What is the permission value for a file read only for the group owner?
+
+ANSWER - 040
+
+Question #4
+What is the permission value for a file without any restriction?
+
+ANSWER - 777
+
+Question #5
+What is the numerical value for the r-xr--r-- permission?
+
+ANSWER - 544
+
+Question #6
+What is the numerical value for the rwx------ permission?
+
+ANSWER - 700

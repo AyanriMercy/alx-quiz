@@ -1,0 +1,24 @@
+Question #0
+What is the variable name who contains the previous working directory path?
+
+ANSWER - OLDPWD
+
+Question #1
+Which command should I use to display a variable?
+
+ANSWER - echo $MYVAR
+
+Question #2
+Which command should I use to define a new command push for pushing in Github?
+
+Example:
+$ push 
+Everything up-to-date
+$
+
+ANSWER - alias push="git push"
+
+Question #3
+Which command should I use to display the exit code of the previous command?
+
+ANSWER - echo $?

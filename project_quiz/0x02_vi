@@ -1,0 +1,19 @@
+Question #0
+How do you enter Command Mode in Vi?
+
+ANSWER - <ESC>
+
+Question #1
+Vi is included with almost every Linux distribution.
+
+ANSWER - True
+
+Question #2
+How do you quit Vi?
+
+ANSWER - :q<Return>
+
+Question #3
+How do you enter Insert Mode in Vi?
+
+ANSWER - i

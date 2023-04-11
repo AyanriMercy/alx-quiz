@@ -1,0 +1,46 @@
+Question #0
+How many bytes will this statement allocate?
+
+malloc(sizeof(int) * 4)
+
+ANSWER - 16
+
+Question #1
+How many bytes will this statement allocate?
+
+malloc((sizeof(char) * 10) + 1)
+
+ANSWER - 11
+
+Question #2
+What is Valgrind?
+
+ANSWER - It is a program to validate memory allocation
+
+Question #3
+How many bytes will this statement allocate?
+
+malloc(sizeof(unsigned int) * 2)
+
+ANSWER - 8
+
+Question #4
+How many bytes will this statement allocate?
+
+malloc(sizeof(int) * 10)
+
+ANSWER - 40
+
+Question #5
+How many bytes will this statement allocate?
+
+malloc(10)
+
+ANSWER - 10
+
+Question #6
+How many bytes will this statement allocate?
+
+malloc(sizeof(char) * 10)
+
+ANSWER - 10

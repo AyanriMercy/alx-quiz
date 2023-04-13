@@ -1,0 +1,86 @@
+Question #0
+What will you see on the terminal?
+
+int main(void)
+{
+    int *ptr;
+
+    *ptr = 98;
+    printf("%d\n", *ptr);
+    return (0);
+}
+
+ANSWER - Segmentation Fault
+
+Question #1
+If I want to copy the string “Best School” into a new space in memory, I can use this statement to reserve enough space for it
+
+ANSWER - malloc(12)
+	- malloc(strlen(“Best School”) + 1)
+	- malloc(sizeof(“Best School”))
+
+Question #2
+You can do this:
+
+char str[] = "Best School";
+
+free (str);
+
+ANSWER - No
+
+Question #3
+To allocate enough space for an array of 10 integers (on a 64bit, Linux machine), I can use:
+
+ANSWER - malloc(10 * sizeof(int))
+
+Question #4
+The memory space reserved when calling malloc is on:
+
+ANSWER - The heap
+
+Question #5
+malloc returns an address
+
+ANSWER - True
+
+Question #6
+malloc returns a pointer
+
+ANSWER - True
+
+Question #7
+You can do this:
+
+free("Best School");
+
+ANSWER - No
+
+Question #8
+You can do this:
+
+char *s;
+
+s = strdup("Best School");
+if (s != NULL)
+{
+    free(s);
+}
+
+ANSWER - YYes
+
+Question #9
+What is wrong with this code:
+
+
+
+int cp(void)
+{
+    char *s;
+
+    s = malloc(12);
+    strcpy(s, "Best School");
+    return (0);
+}
+
+ANSWER - There is no comment
+	- malloc can fail so we should check its return value all the time before using the pointers returned by the function.
